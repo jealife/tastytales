@@ -21,6 +21,7 @@
 
  .hero-containter {
      width: 100%;
+     min-height: 100vh;
      padding: 0 3rem;
      text-align: center;
      transition: 0.5s;
@@ -96,6 +97,7 @@
 /*/////*/
 @media (max-width: 768px) {
     main {
+        min-height: 100vh;
         background-image: url(Ellipse\ 1.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -110,9 +112,11 @@
     }
 
     .hero-containter {
+        
+        min-height: 100vh;
         width: 100%;
         margin: 0;
-        padding: 0 ;
+        padding: 3rem 0 0 0 ;
         text-align: center;
         transition: 0.5s;
     }
@@ -122,10 +126,10 @@
     }
 
     .title-container h2 {
-        font-size: 3rem;
+        font-size: 60px;
         font-weight: bold;
         color: #FCC000;
-        font-weight: 800;
+        font-weight: 900;
     }
 
     .title-container p {
