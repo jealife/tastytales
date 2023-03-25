@@ -112,8 +112,6 @@
     }
 
     .hero-containter {
-        
-        min-height: 100vh;
         width: 100%;
         margin: 0;
         padding: 3rem 0 0 0 ;
@@ -128,32 +126,35 @@
     .title-container h2 {
         font-size: 60px;
         font-weight: bold;
-        color: #FCC000;
+        color: #fc8f00;
         font-weight: 900;
     }
 
     .title-container p {
         margin-top: -1.5rem;
-        font-size: 1.2rem;
+        font-size: 2rem;
         margin-right: 0;
     }
 
     .btn {
         background-color: #FCC000;
         border: none;
-        height: 40px;
+        height: 50;
         border-radius: 100px;
         padding: 10px 0px;
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 1vh;
-        width: 150px;
+        width: 200px;
         color: #fff;
         font-size: 1.5rem;
         font-weight: 600;
         cursor: pointer;
 
+    }
+    .start{
+        font-size: 2.5rem;
     }
 
     .shadow {
