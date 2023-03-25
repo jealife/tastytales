@@ -93,7 +93,7 @@ nav {
 }
 
 
-/* .elipse1 {
+ .elipse1 {
     position: absolute;
     width: 448px;
     height: 448px;
@@ -102,7 +102,19 @@ nav {
     z-index: -1;
     background: rgba(255, 206, 58, 0.23);
     filter: blur(101px);
-} */
+    
+} 
+.elipse2 {
+    position: absolute;
+    width: 448px;
+    height: 448px;
+    left: 52%;
+    top: -113px;
+    z-index: -1;
+    background: rgba(255, 206, 58, 0.23);
+    filter: blur(101px);
+    
+}
 
 .main-navlinks {
     display: flex;
@@ -111,7 +123,7 @@ nav {
 @media (max-width: 900px) {
     nav {
         width: 100%;
-        padding: 1px 45px;
+        padding: 5px 45px;
         margin: 0;
         flex-direction: row-reverse;
         position: relative;
@@ -134,8 +146,8 @@ nav {
     }
 
     .hamburger {
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
         cursor: pointer;
         border: none;
         display: flex;
@@ -193,6 +205,7 @@ nav {
 
 
     .traduction {
+        top: 1.5rem;
         position: absolute;
         right: 7em;
     }
