@@ -240,9 +240,7 @@ ion-icon {
         right: 10%;
         left: 0;
         width: 100%;
-        background-color: #fff;
-
-        background: #ffffff2e;
+        background-color: #ffffffed;
         backdrop-filter: blur(100px);
         height: 100vh;
         min-width: 100vw;
