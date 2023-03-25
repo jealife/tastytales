@@ -1,85 +1,198 @@
-<!DOCTYPE html>
-<html lang="en">
+/* 
+ main {
+     width: 100%;
+     max-width: 1023PX;
+     min-width: 769;
+ }
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hero</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.css">
-</head>
+ .display-flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
 
-<body>
-    
+ }
 
-    </div>
-    <header>
-        <nav class="nav-container">
-            <div class="nav-icon">
-                <a href="#" aria-label="Visite Home Page" aria-current="page">
-                    <span>
-                        <img src="TastyTales.png" alt="logo" width="50px">
-                    </span>
-                </a>
+ .container {
+     width: 100%;
+     align-self: center;
+     justify-self: center;
+ }
 
-            </div>
-            <div class="main-navlinks">
-                <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
-                    <span></span>
-                    <span class="sp2"></span>
-                    <span></span>
-                </button>
-                <div class="traduction">
-                    <span>
-                        <a href="#"><ion-icon name="globe-outline"></ion-icon></a>
-                    </span>
-                </div>
-                <div class="navlinks-container" id="scrollable">
-                    <a href="#" aria-current="page">Home</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                </div>
-            </div>
-        </nav>
-        <!-- <div class="elipse1">
 
-        </div>
-        <div class="elipse2">
-    
-        </div>
-        <div class="elipse3"> -->
+ .hero-containter {
+     width: 100%;
+     padding: 0 3rem;
+     text-align: center;
+     transition: 0.5s;
+ }
 
-    </header>
-    <main>
-        <div class="hero-containter display-flex">
-            <div class="title-container display-flex">
-                <span>
-                    <h2>
-                        TASTY <br> TALES
-                    </h2>
-                </span>
-                <p>
-                    Passionate about cooking and gastronomy, come and discover our recipes and tips to amaze your taste buds.
-                </p>
-                <button class="btn start shadow">
-                    Start
-                </button>
-            </div>
-            <div class="image-hero-container">
-                <img src="cheerful-chef-in-uniform-showing-thumb-up.png" alt=" cheerful chef in uniform showing thumb up">
-            </div>
-        </div>
-    </main>
+ .image-hero-container img {
+     width: 45%;
+     transform: translateX(-28%);
+     /* transform: translateY(-135PX); 
+     top: 5%;
+     position: absolute;
 
-    <footer>
-        <!-- <p>Pied de page</p> -->
-    </footer>
+ }
+ .image-hero-container .img-hero-2{
+    width: 45%;
+     transform: translateX(-80%);
+      transform: translateY(-135PX); 
+     top: 5%;
+     position: absolute;
+ } */
 
-    <script src="nav.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+/* 
+ .title-container {
+     display: block;
+     text-align: left;
+     justify-content: left;
+     flex: 1;
+ }
 
-</html>
+ .title-container h2 {
+     font-size: 3rem;
+     font-weight: bold;
+     color: #FCC000;
+     font-weight: 800;
+ }
+
+ .title-container p {
+     margin-top: -1.5rem;
+     font-size: 2rem;
+     margin-right: 19rem;
+ }
+
+
+ .btn {
+     background-color: #FCC000;
+     border: none;
+     height: 40px;
+     border-radius: 100px;
+     padding: 10px 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 1vh;
+     width: 150px;
+     color: #fff;
+     font-size: 1.5rem;
+     font-weight: 600;
+     cursor: pointer;
+
+ }
+
+ .shadow {
+
+     box-shadow: #FCC000 0px 14px 28px, #fcac00 0px 10px 10px;
+ }
+
+ .btn:hover {
+     transition: 5s;
+     box-shadow: #FCC000 0px 1px 1px 0px inset, #fcac00 0px 50px 100px -20px, #fcac00 0px 30px 60px -30px;
+
+ } */
+
+/*/////*/
+@media (max-width: 768px) {
+    main {
+        background-image: url(Ellipse\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .display-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hero-containter {
+        width: 100%;
+        margin: 0;
+        padding: 0 ;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .title-container{
+        padding: 0 2.5rem;
+
+    }
+
+    .title-container h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #FCC000;
+        font-weight: 800;
+    }
+
+    .title-container p {
+        margin-top: -1.5rem;
+        font-size: 1.2rem;
+        margin-right: 0;
+    }
+
+    .btn {
+        background-color: #FCC000;
+        border: none;
+        height: 40px;
+        border-radius: 100px;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 1vh;
+        width: 150px;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+
+    .shadow {
+
+        box-shadow: #FCC000 0px 14px 28px, #fcac00 0px 10px 10px;
+    }
+
+    .btn:hover {
+        transition: 5s;
+        box-shadow: #FCC000 0px 1px 1px 0px inset, #fcac00 0px 50px 100px -20px, #fcac00 0px 30px 60px -30px;
+
+    }
+
+    /* .image-hero-container{
+
+     } */
+    .image-hero-container {
+        width: 100%;
+        background: url(Ellipse\ 2.png);
+    }
+
+    .image-hero-container img {
+        position: relative;
+        width: 90vw;
+        transform: translateX(-11px);
+    }
+
+    .image-hero-container .img-hero-2 {
+        display: none;
+    }
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0.4rem;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #FCC000;
+}
