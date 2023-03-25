@@ -159,7 +159,10 @@
 
      /* .image-hero-container{
 
-     } */
+     } */.image-hero-container{
+        
+        background: url(Ellipse\ 2.png);
+     }
      .image-hero-container img {
         position: relative;
          width: 90vw;
